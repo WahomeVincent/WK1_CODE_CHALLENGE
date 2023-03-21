@@ -1,4 +1,6 @@
-let marks = 39;
+let marks = prompt("Please enter the student's marks (between 0 and 100):");
+
+marks = Number(marks);
 
 if (marks > 79) {
     console.log("Your grade is : A ");
