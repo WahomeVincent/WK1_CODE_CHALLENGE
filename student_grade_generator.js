@@ -12,3 +12,4 @@ if (marks > 79) {
 } else if (marks < 40) {
     console.log("Your grade is : E ");
 }
+
