@@ -1,10 +1,11 @@
-
+//Declaration of variables.
+//Parsing values to be a floating point data type.
 const basicSalary = parseFloat(prompt("Enter your basic salary:"));
 const benefits = parseFloat(prompt("Enter your benefits:"));
 
 const grossSalary = basicSalary + benefits;
 
-
+//Code statements.
 let paye = 0;
 if (grossSalary <= 24000) {
   paye = 0;
