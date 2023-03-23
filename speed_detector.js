@@ -1,6 +1,9 @@
-
+//Declares a varible 'speed' where the data will be stored.
+//ParseInt is use to ensure that any value passed to the variable is converted to an integer.
 let speed = parseInt(prompt("Enter the speed of the car: "));
 
+
+//Code execution that returns various statements based on the stated conditions.
 if (speed < 70) {
   console.log("Ok");
 } else {
